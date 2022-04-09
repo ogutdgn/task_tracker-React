@@ -1,9 +1,6 @@
 import Button from "./Button"
 
 const Header = ({title, showAddTask, toggleShow}) => {
-    const handleClick = () => {
-        console.log("Clicked with handle");
-    }
   return (
     <div className="header">
         {/* <h1>Task Tracker</h1> */}
